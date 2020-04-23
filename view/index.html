@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <!--form para a requisição post do ajax-->
+        <form id="form-ajax" method="post">
+            <input type="text" name="name" value="name" id="name">
+            <input type="text" name="job" value="job" id="job">
+            <input type="submit" value="enviar">
+        </form>
+    </section>
+    <!--botão para chamada da requisição ajax get-->
+    <button id="btn">Lista</button>
+    <ul id="list">
+        <!--lista recebida por ajax-->
+    </ul>
+    <footer>
+       <script type="module" src="/controller/ajax.class.js"></script>
+    </footer>
+</body>
+</html>
